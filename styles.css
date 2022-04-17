@@ -6,7 +6,7 @@ body {
 
 html {
   font-family: 'Helvetica neue', Arial, 'sans serif';
-  font-size: 10px;
+  font-size: 11px;
   background-color: #ccc;
 }
 
@@ -33,45 +33,52 @@ html {
   border-radius: 0 0 1.5em 1.5em;
 }
 
-.card article img {
+.card .article .img {
   max-height: 100%
-  float: right;
+  float: right
 }
 
 /*Card container set-up*/
+#container {
+max-width: 100%;
+max-height: fit-content;
+}
+
 
 /*Header, footer stylings*/
-header,
-footer {
-  height: 50px;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
+.card header,
+.card footer {
+  height: 1.5em;
+  padding-left: 1.0em;
+  padding-top: 1.1em;
+  padding-bottom: 1.0em;
+  padding-right: 1.2em;
   margin: auto;
 }
 /*Main business card content style*/
 
 *h2,
 *p {
-  margin: 0px;
+  margin: 0.8em;
 }
 
 .article {
-  height: 120px;
+  height: 1.2em;
   background-color: #777;
 }
 
 .h2 {
-  font-size: 20px;
-  line-height: 12px;
+  font-size: 2em;
+  line-height: 1em;
 }
 
 .footer.p {
-  font-size: 15px;
-  line-height: 12px;
+  font-size: 1.5em;
+  line-height: 1.2em;
 }
 
-.article.p {
+.article #p {
   padding: auto;
+  background-color: #f0ffff;
+  padding-left: 2em;
 }
