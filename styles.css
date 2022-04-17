@@ -14,7 +14,7 @@ html {
 
 /* Rulesets to be matched up with selectors */
 
-.card article img {
+.card {
   width: 35em;
   height: 22em;
   margin: 5em auto;
@@ -33,7 +33,7 @@ html {
   border-radius: 0 0 1.5em 1.5em;
 }
 
-.card {
+.card article img {
   max-height: 100%
   float: right;
 }
@@ -41,5 +41,37 @@ html {
 /*Card container set-up*/
 
 /*Header, footer stylings*/
-
+header,
+footer {
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  margin: auto;
+}
 /*Main business card content style*/
+
+*h2,
+*p {
+  margin: 0px;
+}
+
+.article {
+  height: 120px;
+  background-color: #777;
+}
+
+.h2 {
+  font-size: 20px;
+  line-height: 12px;
+}
+
+.footer.p {
+  font-size: 15px;
+  line-height: 12px;
+}
+
+.article.p {
+  padding: auto;
+}
